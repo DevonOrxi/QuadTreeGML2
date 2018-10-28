@@ -6,7 +6,7 @@ var quad = argument[0];
 
 with (quad) {
 	for (var i = 0; i < ds_list_size(objects); ++i) {
-	    var obj = ds_list_find_value(objects, i);
+	    var obj = objects[| i];
 		ds_list_delete(objects, i);
 	}
 

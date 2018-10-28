@@ -19,13 +19,13 @@ with (quad) {
 	ds_list_add(objects, obj);
 	var objLen = ds_list_size(objects);
 	
-	if (objLen > global.MAX_OBJECTS && level < global.MAX_LEVELS) {
+	if (objLen > MAX_OBJECTS && level < MAX_LEVELS) {
 		if (nodes[0] == noone)
 			splitQuad(self);
 			
 		var i = 0;
 		while (i < objLen) {
-			var index = getIndex(self, ds_list_find_value(objects, i))
+			var index = getIndex(self, objects[| i]);
 			if (index != -1) {
 				insertQuad(nodes[index], obj);
 				ds_list_delete(objects, obj);

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "20698c6d-8672-4244-bda6-084abc82e1b8",
+            "Value": {
+                "id": "4f904241-c6bf-4bab-b050-3ce85c14d72f",
+                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-41ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "9abab8ee-5261-4ed5-9f44-5236c8939453",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "a03f2015-aed5-4895-9331-c28ab55e5155",
                 "resourcePath": "scripts\\getIndex\\getIndex.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "429ff7a9-ca43-432a-a365-781d7bf666bf",
+            "Value": {
+                "id": "05850b78-8249-42e7-8ef5-106eb13d875f",
+                "resourcePath": "scripts\\collideObjWithGroup\\collideObjWithGroup.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "b0bca810-a9b5-4c20-b097-ad850f47bc8b",
+            "Value": {
+                "id": "fcf8a613-1683-4667-b901-984b2274c5bb",
+                "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b9f77b88-b13e-4731-a4dc-df11040f637b",
             "Value": {
                 "id": "ea06512d-368b-419e-bebf-de54dda0e5d4",
@@ -357,7 +381,8 @@
         "c2416619-763f-4c1a-ae3a-6e6baa2d28e9",
         "aaf4ea4f-cfa0-4b9e-92f3-4e5d4c0b8e3e",
         "6095a034-4724-4212-9c37-4bacac6560a0",
-        "f4f75de0-d828-4217-adb1-3f39d00c4702"
+        "f4f75de0-d828-4217-adb1-3f39d00c4702",
+        "429ff7a9-ca43-432a-a365-781d7bf666bf"
     ],
     "tutorial": ""
 }

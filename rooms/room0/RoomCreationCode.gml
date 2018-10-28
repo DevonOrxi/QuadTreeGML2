@@ -1,0 +1,2 @@
+#macro MAX_LEVELS 5
+#macro MAX_OBJECTS 10

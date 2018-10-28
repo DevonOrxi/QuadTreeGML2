@@ -1,2 +1,1 @@
-ds_list_add(global.collidables, self);
-show_debug_message("I... LIVE!");
+ds_list_add(oQuadTreeMgr.collidables, self);

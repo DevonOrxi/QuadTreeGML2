@@ -1,6 +1,6 @@
-global.MAX_OBJECTS = 10;
-global.MAX_LEVELS = 5;
-global.collidables = ds_list_create();
+//global.MAX_OBJECTS = 10;
+//global.MAX_LEVELS = 5;
+collidables = ds_list_create();
 
 var rect = [[0, 0], [room_width, room_height]];
 quadStart = createQuad(1, rect);
