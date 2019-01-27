@@ -18,7 +18,7 @@ with (obj) {
 	// Object can completely fit within the top quadrants
 	var topQuad = (y < qtMidY) && ((y + oWidth) < qtMidY);
 	// Object can completely fit within the bottom quadrants
-	var botQuad = obj.y > qtMidY;
+	var botQuad = y > qtMidY;
 	
 	// Object can completely fit within the left quadrants
 	if ((x < qtMidX) && ((x + oWidth) < qtMidX)) 
